@@ -1,4 +1,4 @@
-package com.example.belike
+package com.riabslob.belike
 
 import org.junit.Test
 
