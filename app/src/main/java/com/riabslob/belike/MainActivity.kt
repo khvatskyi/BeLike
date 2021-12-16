@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<Button>(R.id.button5).setOnClickListener {
+        findViewById<Button>(R.id.b_Tariffs).setOnClickListener {
             val i = Intent(this@MainActivity, ListActivity::class.java)
             startActivity(i)
         }
