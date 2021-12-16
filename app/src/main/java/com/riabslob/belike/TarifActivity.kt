@@ -5,13 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class TarifActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_tarif)
 
-        findViewById<Button>(R.id.button5).setOnClickListener {
-            val i = Intent(this@MainActivity, ListActivity::class.java)
+        findViewById<Button>(R.id.button4).setOnClickListener {
+            val i = Intent(this@TarifActivity, ListActivity::class.java)
             startActivity(i)
         }
     }

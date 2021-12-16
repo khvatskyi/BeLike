@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeLike">
         <activity
+            android:name=".TarifActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
