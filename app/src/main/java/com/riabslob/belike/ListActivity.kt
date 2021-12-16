@@ -13,9 +13,18 @@ class ListActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.button).setOnClickListener {
             val i = Intent(this@ListActivity, TarifActivity::class.java)
+            i.putExtra("texto", "F")
             startActivity(i)
-            val texto = findViewById<TextView>(R.id.textView4)
-            texto.text = "Family"
-
+        }
+        findViewById<Button>(R.id.button2).setOnClickListener {
+            val i = Intent(this@ListActivity, TarifActivity::class.java)
+            i.putExtra("texto", "I")
+            startActivity(i)
+        }
+        findViewById<Button>(R.id.button3).setOnClickListener {
+            val i = Intent(this@ListActivity, TarifActivity::class.java)
+            i.putExtra("texto", "B")
+            startActivity(i)
+        }
         }
 }

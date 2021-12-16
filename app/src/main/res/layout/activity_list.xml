@@ -10,7 +10,7 @@
         android:id="@+id/button"
         android:layout_width="405dp"
         android:layout_height="62dp"
-        android:text="Family"
+        android:text='Tariff "Family"'
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -19,7 +19,7 @@
         android:id="@+id/button2"
         android:layout_width="405dp"
         android:layout_height="62dp"
-        android:text="Pog"
+        android:text='Tariff "Intenet"'
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
@@ -28,7 +28,7 @@
         android:id="@+id/button3"
         android:layout_width="405dp"
         android:layout_height="62dp"
-        android:text="Champ"
+        android:text='Tariff "Best"'
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
