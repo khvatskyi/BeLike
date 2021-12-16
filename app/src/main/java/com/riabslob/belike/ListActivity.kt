@@ -11,6 +11,10 @@ class ListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list)
 
+        val num = intent.getStringExtra("number")
+        val texnum = findViewById<TextView>(R.id.textView2)
+        texnum.text = num
+
         findViewById<Button>(R.id.button).setOnClickListener {
             val i = Intent(this@ListActivity, TarifActivity::class.java)
             i.putExtra("texto", "F")
